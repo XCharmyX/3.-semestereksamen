@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head.ejs') %>
+<body>
+  <div class="imgcontainer">
+    <img src="img/logo.png" alt="Avatar" class="avatar">
+  </div>
+<br>
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+<br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+<br>
+  <form action="frontpage.html" class="inline">
+    <button class="float-left submit-button" >login</button>
+  </form>
+<br>
+	<form action="createaccount.html" class="inline">
+    <button class="float-left submit-button" >Create account</button>
+</form>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+<br>
+<br>
+<br>
+  <div class="container">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</body>
+</html>
