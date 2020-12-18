@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs') %>
+
+
+
+<body>
+	<div class="container">
+    <br>
+    	<div class="imgcontainer">
+    	<img src="img/logo.png" alt="Avatar" class="avatar">
+    </div>
+    	<p>Please fill in this form to create an account.</p>
+    <hr>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+    	<label for="psw"><b>Password</b></label>
+    	<input type="password" placeholder="Enter Password" name="psw" required>
+	<br>
+    	<label for="psw-repeat"><b>Repeat Password</b></label>
+    	<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
+    <br>
+    <div class="clearfix">
+    <form action="frontpage.html" class="inline">
+    	<button class="float-left submit-button" >Sign up</button>
+	</form>
+    <form action="login.html" class="inline">
+    	<button class="float-left submit-button" >Cancel</button>
+	</form>
+    </div>
+    <br>
+    	<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <br>
+  </div>
+</body>
+</html>

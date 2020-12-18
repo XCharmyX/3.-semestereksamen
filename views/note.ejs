@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+  <body>
+<div class="create-note content">
+  <form action="/notes" method="post">
+    <label for="dato">Dato</label>
+    <input type="text" id="dato" name="dato" required>
+    <label for="fokus">Dagens fokus</label>
+    <input type="text" id="fokus" name="fokus" required>
+    <label for="noter">Noter til træningen</label>
+    <textarea id="noter" rows="10" name="noter" required></textarea>
+    <button>Send noter</button>
+
+  </form>
+
+</div>
+
+
+  </body>
+</html>
